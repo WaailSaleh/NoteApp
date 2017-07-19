@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="8dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/loca"
+    android:textSize="36sp" />
+    <Switch
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locationin"
+        android:onClick="inter"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <Switch
+        android:id="@+id/ex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/locationex"
+        android:onClick="exter"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <Button
+        android:id="@+id/settingssave"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Savestates"
+        android:textColor="#0116ff"
+        style="?android:attr/buttonBarButtonStyle"
+
+        />
+</LinearLayout>

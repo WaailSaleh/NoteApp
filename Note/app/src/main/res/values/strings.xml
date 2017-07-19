@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="load">Load</string>
+    <string name="clear">Clear</string>
+    <string name="title">Title</string>
+    <string name="content">Content of File</string>
+    <string name="settings">settings</string>
+    <string name="locationin">Save Internally </string>
+    <string name="locationex">Save Externally </string>
+    <string name="Savestates">Save Changes</string>
+    <string name="loca">Store File In</string>
+</resources>
